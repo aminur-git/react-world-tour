@@ -32,11 +32,13 @@
 }
 
 .country:hover {
-  scale: 1.002;
+  scale: 1.003;
   cursor: pointer;
-  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-  transition: 0.1s;
-  translate: 0px 1px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+  transition: 0.05s;
+   
+
+  
 }
 
 .visit{
@@ -46,4 +48,7 @@
 
 .visited{
     background-color: rgba(0, 255, 225, 0.131);
+    
+
+
 }
