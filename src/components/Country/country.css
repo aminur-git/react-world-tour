@@ -6,6 +6,8 @@
   color: black;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
     rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    
+
 }
 
 .highlight {
@@ -35,4 +37,9 @@
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
   transition: 0.1s;
   translate: 0px 1px;
+}
+
+.visit{
+    margin-top: 10px;
+    font-size: 14px;
 }

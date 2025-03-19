@@ -6,8 +6,8 @@ const Country = ({ country }) => {
   const [visited, setVisited] = useState();
 
   const handleVisited = () => {
-    setVisited(!visited)
-  }
+    setVisited(!visited);
+  };
 
   return (
     <div className="country">
@@ -21,8 +21,18 @@ const Country = ({ country }) => {
           <p> Capital : {capital}</p>
           <p> Continets: {continents}</p>
           <p> Population: {population}</p>
-          <button onClick={()=>{handleVisited()}}>Visited</button>
-          {visited ? '       You have visited this Country' : '           I want to visit'}
+          <button
+            onClick={() => {
+              handleVisited();
+            }}
+          >
+            {visited ? "Visited" : "Visit"}
+          </button>
+        </div>
+        <div className="visit">
+          {visited
+            ? "       You have visited this Country"
+            : "           I want to visit"}
         </div>
       </div>
     </div>
