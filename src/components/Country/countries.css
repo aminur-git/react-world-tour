@@ -1,0 +1,35 @@
+.country-conrainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .country-conrainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+    .country-conrainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .country-conrainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media only screen and (min-width: 992px){
+    .country-conrainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  @media only screen and (min-width: 1280px){
+    .country-conrainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+  } 

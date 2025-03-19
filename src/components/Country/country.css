@@ -4,7 +4,10 @@
     border-radius: 15px;
     padding: 20px;
     color: black;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;    
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;   
+    
+
+    
 }
 
 .highlight{
@@ -15,14 +18,22 @@
     text-align: center;
 }
 
-.flex{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.image{
+    height: 250px;
+    width: 100%;
 }
 
 .headers{
     color: black;
     
+}
+
+
+
+.country:hover{
+    scale: 1.002;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.1s;
+    translate: 0px 1px;
 }
