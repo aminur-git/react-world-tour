@@ -10,7 +10,7 @@ const Countries = () => {
   }, []);
 
   return (
-    <div>
+    <div className="headers">
       <h3>Countries : {countries.length} </h3>
       {countries.map((country) => (
         <Country country={country} key={country.cca3}></Country>
