@@ -43,3 +43,7 @@
     margin-top: 10px;
     font-size: 14px;
 }
+
+.visited{
+    background-color: rgba(0, 255, 225, 0.131);
+}
