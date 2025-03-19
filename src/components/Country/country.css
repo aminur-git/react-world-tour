@@ -1,39 +1,38 @@
-.country{
-    border: 2px solid skyblue;
-    margin: 15px;
-    border-radius: 15px;
-    padding: 20px;
-    color: black;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;   
-    
-
-    
+.country {
+  border: 2px solid skyblue;
+  margin: 15px;
+  border-radius: 15px;
+  padding: 20px;
+  color: black;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+    rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
 }
 
-.highlight{
-    background-color: rgba(10, 10, 10, 0.082);
-    padding: 5px;
-    border-radius: 5px;
-    color: rgb(9, 134, 172);
-    text-align: center;
+.highlight {
+  background-color: rgba(10, 10, 10, 0.082);
+  padding: 5px;
+  border-radius: 5px;
+  color: rgb(9, 134, 172);
+  text-align: center;
 }
 
-.image{
-    height: 250px;
-    width: 100%;
+.image {
+  height: 250px;
+  width: 100%;
+  border: 1px solid gainsboro;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 15px;
 }
 
-.headers{
-    color: black;
-    
+.headers {
+  color: black;
 }
 
-
-
-.country:hover{
-    scale: 1.002;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    transition: 0.1s;
-    translate: 0px 1px;
+.country:hover {
+  scale: 1.002;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  transition: 0.1s;
+  translate: 0px 1px;
 }
