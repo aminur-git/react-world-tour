@@ -9,7 +9,7 @@ const Country = ({ country, handleVisitedCountry, handleVisitedFlags }) => {
     setVisited(!visited);
   };
 
-  console.log(handleVisitedCountry);
+  //   console.log(handleVisitedCountry);
 
   return (
     <div className={`country ${visited ? "visited" : ""}`}>
@@ -49,13 +49,21 @@ const Country = ({ country, handleVisitedCountry, handleVisitedFlags }) => {
           >
             Mark Visited
           </button>
-        <div className="visit">
-          {visited
-            ? "       You have visited this Country"
-            : "           I want to visit"}
-        </div>
-        </div>
 
+          <button
+            onClick={() => {
+              handleVisitedFlags(country.flags.png)
+            }}
+          >
+            Add Flag
+          </button>
+
+          <div className="visit">
+            {visited
+              ? "       You have visited this Country"
+              : "           I want to visit"}
+          </div>
+        </div>
       </div>
     </div>
   );

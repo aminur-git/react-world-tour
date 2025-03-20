@@ -7,7 +7,7 @@ function App() {
     <>
       
       <h1 className='headers'>React World Tour</h1>
-      <Countries></Countries>
+      <Countries> </Countries>
       
     </>
   )

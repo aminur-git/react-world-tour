@@ -1,6 +1,5 @@
 .country {
-  border: 2px solid skyblue;
-  margin: 15px;
+  border: 1px solid rgba(13, 142, 255, 0.334);  margin: 15px;
   border-radius: 15px;
   padding: 20px;
   color: black;
@@ -48,7 +47,9 @@
 
 .visited{
     background-color: rgba(0, 255, 225, 0.131);
-    
+}
 
-
+.flag-container img{
+padding: 5px;
+height: 50px;
 }
